@@ -1,0 +1,18 @@
+Клонирование в папку nameProject 
+git clone https://...  nameProject 
+
+Добавить файлов в коммит:
+git add .
+
+Запись коммита:
+git commit -m "Коментирование коммита"
+
+Отправить коммит:
+git push
+
+Принять изменения:
+git pull
+
+Автворство коммитов:
+git config --global user.email "Ваш емайл"
+git config --global user.name "Ваше Имя"
