@@ -16,3 +16,5 @@ git pull
 Автворство коммитов:
 git config --global user.email "Ваш емайл"
 git config --global user.name "Ваше Имя"
+
+Домашняя задание выполнить:
