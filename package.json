@@ -1,0 +1,45 @@
+{
+  "name": "static-project-template",
+  "version": "0.0.1",
+  "description": "Simple project template with LESS, Autoprefixer and livereload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && gulp",
+    "dev": "gulp",
+    "prod": "set NODE_ENV=prod&& gulp prod",
+    "lint": "eslint src && stylelint src/less/*.less",
+    "precommit": "npm run lint"
+  },
+  "author": "Andrey Miskov",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^3.0.0",
+    "eslint": "^8.56.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-util": "^3.0.8",
+    "husky": "^0.14.3",
+    "stylelint": "^16.2.1",
+    "axios": "^0.21.4",
+    "got": "^11.8.5",
+    "http-cache-semantics": "^4.1.1",
+    "lodash": "^4.17.21",
+    "semver-regex": "^3.1.3"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^5.0.0",
+    "install": "^0.10.1",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "glob-parent": "^5.1.2"
+  }
+}

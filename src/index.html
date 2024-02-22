@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Document</title>
+    <link rel='stylesheet' href='./less/main.css'>
+</head>
+<body id='doc'>
+<!--START HEADER-->
+<header class='header'>
+    <div class='container'>
+        <div class='header-wrap'>
+            <div class='header__block logo-shop'>
+                <a href='#' class='logo-shop__link'>
+                    <img class='logo-shop__img' src='img/the_shop_logo.svg' alt='the_shop_logo'>
+                </a>
+            </div>
+            <div class='header__block logo-oggetto'>
+                <a href='#' class='logo-oggetto__link'>
+                    <img class='logo-oggetto__img' src='img/oggetto_logo.svg' alt='oggetto_logo'>
+                </a>
+            </div>
+            <div class='header__block block-phone'>
+                <a href="tel:+7(812)2128506" class='block-phone__text'>+7 (812) 2•12•85•06</a>
+            </div>
+        </div>
+    </div>
+    <!--START HEADER NAVIGATION-->
+    <div class='navigation-wrap'>
+        <div class='container'>
+            <nav class='navigation'>
+                <ul class='navigation__items'>
+                    <li class='navigation__item'>
+                        <a href='#' class='navigation__link navigation__link_active'>LISP</a>
+                    </li>
+                    <li class='navigation__item'>
+                        <a href='#' class='navigation__link'>OCaml</a>
+                    </li>
+                    <li class='navigation__item'>
+                        <a href='#' class='navigation__link'>JavaScript</a>
+                    </li>
+                    <li class='navigation__item'>
+                        <a href='#' class='navigation__link'>Python</a>
+                    </li>
+                    <li class='navigation__item'>
+                        <a href='#' class='navigation__link'>PHP</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class='form-search' action='#'>
+                <input type='text' class='form-search__input'>
+            </form>
+        </div>
+    </div>
+    <!--END HEADER NAVIGATION-->
+</header>
+<!--END HEADER-->
+<!--START ARTICLE-->
+<div class='container main-section'>
+    <!--START BREADCRUMBS-->
+    <div class='breadcrumbs'>
+        <ul class='breadcrumbs__items'>
+            <li class='breadcrumbs__item'>
+                <a href='#' class='breadcrumbs__link'>LISP</a>
+            </li>
+            <li class='breadcrumbs__item'>
+                <a href='#' class='breadcrumbs__link'>Одежда</a>
+            </li>
+            <li class='breadcrumbs__item'>
+                <a href='#' class='breadcrumbs__link breadcrumbs__link_active'>Футболки</a>
+            </li>
+        </ul>
+    </div>
+    <!--END BREADCRUMBS-->
+    <!--START PRODUCT-->
+    <div class='product__wrap'>
+        <!--START PRODUCT PHOTO-->
+        <div class='product__photo'>
+            <img id='productPicture' src='img/tshirts/tshirt_white.jpg' alt='tshirt-photo' class='product__img'>
+        </div>
+        <!--END PRODUCT PHOTO-->
+        <div class='product__info'>
+            <!--START PRODUCT DESCRIPTION-->
+            <div class='product__name'>
+                <h2 class='product__name-text'>Футболка Alien technology</h2>
+            </div>
+            <div class='product__description'>
+                <span class='product__description-text'>Состав: 100% хлопок, динамическая типизация, польская нотация. Производство: Россия.</span>
+            </div>
+            <div class='product__price'>
+                <span class='product__price-text'>1500₽</span>
+            </div>
+            <!--END PRODUCT DESCRIPTION-->
+            <!--START PRODUCT ACTIONS-->
+            <form action='#' class='form-section'>
+                <div class='property-section property-section_size'>
+                    <span class='property-section__text'>Размер:</span>
+                    <div class='property-section__wrap'>
+                        <ul id='sizeList' class='property-section__items'>
+                            <li data-type='size' data-value='S' class='size__item'>S</li>
+                            <li data-type='size' data-value='M' class='size__item size__item_active'>M</li>
+                            <li data-type='size' data-value='L' class='size__item'>L</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='property-section property-section_color'>
+                    <span class='property-section__text'>Цвет:</span>
+                    <div class='property-section__wrap'>
+                        <ul id='colorList' class='property-section__items'>
+                            <li class='color__item color__item-white color__item_active' data-type='color' data-value='white' data-color='white'></li>
+                            <li class='color__item color__item-green' data-type='color' data-value='green' data-color='green'></li>
+                            <li class='color__item color__item-yellow' data-type='color' data-value='yellow' data-color='yellow'></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='buy-section'>
+                    <button class='buy-section__btn'>
+                        <span class='buy-section__btn-text'>Купить</span>
+                    </button>
+                </div>
+            </form>
+            <div class='hold-section'>
+                <img class='hold-section__img' src='img/icons/heart.png' alt='heart'>
+                <div class='hold-section__wrap'>
+                    <a href='#' class='hold-section__link'>
+                        <span class='hold-section__text'>Отложить на потом</span>
+                    </a>
+                </div>
+            </div>
+            <!--END PRODUCT ACTIONS-->
+        </div>
+    </div>
+    <!--END PRODUCT-->
+</div>
+<!--END ARTICLE-->
+<!--START FOOTER-->
+<footer class='footer container__footer'>
+    <div class='container'>
+        <div class='footer__content'>
+            <div class='footer__section footer__section_left'>
+                <div class='footer__content-block footer__menu-block'>
+                    <h4 class='footer__title'>Сервис и поддержка</h4>
+                    <div class='footer__menu-wrapper'>
+                        <ul class='footer__menu'>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Как сделать заказ</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Возврат товара</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Публичная оферта</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Доставка</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='footer__content-block footer__menu-block'>
+                    <h4 class='footer__title'>О компании</h4>
+                    <div class='footer__menu-wrapper'>
+                        <ul class='footer__menu'>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>О нас</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Контакты</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Вакансии</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Партнерам</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Сертификаты</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Преимущества</a></li>
+                            <li class='footer__menu-item'><a class='footer__menu-link' href='#'>Наши скидки</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class='footer__section footer__section_right'>
+                <div class='footer__content-block'>
+                    <ul class='footer__features'>
+                        <li class='footer__features-item footer__features-item_delivery'>бесплатная доставка от 4000 ₽</li>
+                        <li class='footer__features-item footer__features-item_heart'>пробники в подарок при каждой покупке</li>
+                        <li class='footer__features-item footer__features-item_cup'>акции и подарки за покупку</li>
+                    </ul>
+                </div>
+                <div class='footer__content-block footer__content-block__social'>
+                    <a href='#' class='footer__social-item'>
+                        <img src='img/icons/facebook.svg' class='footer__social-img' alt='facebook'>
+                    </a>
+                    <a href='#' class='footer__social-item'>
+                        <img src='img/icons/twitter.svg' class='footer__social-img' alt='twitter'>
+                    </a>
+                    <a href='#' class='footer__social-item'>
+                        <img src='img/icons/instagram.svg' class='footer__social-img' alt='instagram'>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class='footer__cellar'>
+            <p class='footer__cellar-text'>2005-2017 © 7h35h0p.ru — модный интернет-магазин одежды, обуви и аксессуаров.</p>
+            <p class='footer__cellar-text'>Все права защищены. Доставка по всей России!</p>
+        </div>
+    </div>
+</footer>
+<!--END FOOTER-->
+<script src='./js/scripts.js'></script>\
+<script src='./js/property-selector.js'></script>
+</body>
+</html>
